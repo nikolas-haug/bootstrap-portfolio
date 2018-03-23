@@ -1,5 +1,7 @@
 /* custom css styles */
 
+/* MAIN STYLES */
+
 body {
     background-image: url('../images/bgnoise_lg_@2X.png');
 }
@@ -11,6 +13,8 @@ body {
     border: 1px solid #ddd;
     box-shadow: 0px 6px 45px 9px rgba(133,133,140,1);
 }
+
+/* NAVBARS */
 
 .navbar {
     background-color: #fff;
@@ -47,6 +51,8 @@ body {
     transition: all, 0.3s;
 }
 
+/* TYPOGRAPHY */
+
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -54,6 +60,14 @@ h4 {
     letter-spacing: 1.2px;
     padding: 5px 0 10px 0;
     color: #4aaea5;
+}
+
+/* FOOTER */
+
+.container-sub {
+    background-color: #777;
+    color: #fff;
+    border-top: 2px solid #4aaea5;
 }
 
 
