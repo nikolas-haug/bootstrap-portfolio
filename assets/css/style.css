@@ -20,7 +20,8 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     font-size: 24px;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -31,10 +32,10 @@ body {
 .navbar a.navbar-brand {
     background-color: #4aaea5;
     color: #fff;
-    padding: 20px;
+    padding: 24px 18px;
     letter-spacing: 1.2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
   }
 
@@ -49,6 +50,11 @@ body {
     color: #fff;
     background-color: #777;
     transition: all, 0.3s;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
 }
 
 /* TYPOGRAPHY */
