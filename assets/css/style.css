@@ -57,6 +57,18 @@ body {
     outline: none;
 }
 
+/* LINKS */
+
+.card a {
+    text-decoration: none;
+    color: #2B2A2A;
+}
+
+.card a:hover {
+    color: #777;
+    transition: all, 0.3s;
+}
+
 /* TYPOGRAPHY */
 
 h4 {
